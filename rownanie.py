@@ -10,8 +10,8 @@ elif delta == 0:
     x1  = -b / 2 * a
     x2 = None
 else:
-    x1 = (-b - sqrt_delta) / 2 * a
-    x2 = (-b + sqrt_delta) / 2 * a    
+    x1 = (-b - sqrt_delta) / (2 * a)
+    x2 = (-b + sqrt_delta) / (2 * a)    
 
 print ("The results are:", x1, x2)
 
